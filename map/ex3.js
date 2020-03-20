@@ -71,7 +71,7 @@ function getMoviesFreshness(movies) {
         mov.label = "certified fresh";
     };
 
-    return movies;
+    return mov;
   });
 };
 
