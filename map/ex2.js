@@ -43,8 +43,14 @@ En sortie: [
  */
 
 function getFoodCategories(foods) {
-}
-
+  return foods.map((ing) => {
+      if (ing.isVegetarian) {
+          return `${ing.food} is suitable for vegetarians`;
+      } else {
+          return `${ing.food} is not suitable for vegetarians`;
+      };
+  });
+};
 
 
 // Ne pas modifier l'export
