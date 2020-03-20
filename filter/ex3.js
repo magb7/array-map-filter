@@ -29,7 +29,10 @@ Sortie attendue:
  */
 
 function filterOnPrice(products, maxPrice) {
-}
+  return products.filter((model) => {
+      return model.price <= 500;
+  });
+};
 
 // Ne pas modifier l'export
 module.exports = filterOnPrice;
