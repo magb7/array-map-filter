@@ -64,11 +64,11 @@ function getMoviesFreshness(movies) {
   return movies.map((mov) => {
     
     if (mov.rating < 60) {
-       mov.label = "rotten";
+      mov.label = "rotten";
     } else if (mov.rating >= 60 && mov.rating <= 75) {
-        mov.label = "fresh";
+      mov.label = "fresh";
     } else {
-        mov.label = "certified fresh";
+      mov.label = "certified fresh";
     };
 
     return mov;
