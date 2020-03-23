@@ -52,6 +52,5 @@ function getFoodCategories(foods) {
   });
 };
 
-
 // Ne pas modifier l'export
 module.exports = getFoodCategories;
